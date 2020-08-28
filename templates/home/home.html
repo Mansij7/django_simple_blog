@@ -1,0 +1,44 @@
+{% extends 'base.html' %} {% block title %} home {% endblock title %} {% block homeactive %} active {% endblock homeactive %} {% block body %}
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">welcome to My portfolio website</h1>
+    <p class="lead">
+Here you can find some cool projects.
+    </p>
+    <hr class="my-4" />
+    <p>
+     This site was made in Lockdown to got rid from boredom , However while constructing it,
+     i thought to add some cool projects into it and this became my portfolio site.    </p>
+    {% comment %} <a class="btn btn-primary btn-lg" href="/blog" role="button">go to blog</a> {% endcomment %}
+  </div>
+</div>
+
+<!--div class="py-5 text-center">
+  <h2>Checkout our popular blog posts</h2>
+  <p class="lead">i'm sure you'll love it.</p>
+</div-->
+
+  {% comment %} <h2>popular blogposts:</h2>
+  <div class="col-md-6">
+    <div
+      class="row no-gutters border rounded overflow-hidden my-4 flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+    >
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-primary">World</strong>
+        <h3 class="mb-0">Featured post</h3>
+        <div class="mb-1 text-muted">Nov 12</div>
+        <p class="card-text mb-auto">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content.
+        </p>
+        <a href="#" class="stretched-link">Continue reading</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2>this is heading</h2>
+    <p>this is paragraph</p>
+    <button class="btn btn-primary">read more</button>
+  </div> {% endcomment %}
+  {% endblock body %}
+
